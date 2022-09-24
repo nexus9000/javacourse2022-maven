@@ -27,7 +27,11 @@ public class OutterClass {
         public void formatDateTime(){
             java.time.LocalDateTime myTime = java.time.LocalDateTime.now();
             java.time.format.DateTimeFormatter format =
+<<<<<<< HEAD
                     java.time.format.DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm");
+=======
+                    java.time.format.DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+>>>>>>> origin/main
             String formatDate = format.format(myTime);
             System.out.printf("%S%n", formatDate);
         }
