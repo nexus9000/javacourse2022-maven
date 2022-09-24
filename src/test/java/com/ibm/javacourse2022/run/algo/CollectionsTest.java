@@ -53,5 +53,9 @@ class CollectionsTest {
              System.out.printf("%d %S%n",entry.getKey(),entry.getValue());
          }
      }
+     @Test
+    void testHashSet()throws Exception{
+
+     }
 
 }
