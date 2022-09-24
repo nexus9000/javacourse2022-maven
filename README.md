@@ -1,0 +1,1 @@
+# javacourse2022-maven
