@@ -15,6 +15,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class CollectionsTest {
+    private static final String TEXT = "this is the text message for searching with regex";
+    private static final String SEARCH_TEXT = "this";
     public Optional<String>  value = Optional.of("");
     @DisplayName("test linked list")
     @Test
@@ -88,12 +90,12 @@ class CollectionsTest {
     @DisplayName("regex")
     @Disabled
      void testRegEx()throws Exception{
-         Pattern pattern = Pattern.compile("this is the text message for searching with regex",
+        //compile search text
+         Pattern pattern = Pattern.compile(SEARCH_TEXT,
                  Pattern.CASE_INSENSITIVE);
-         Matcher match = pattern.matcher("this*");
+         Matcher match = pattern.matcher(TEXT);//where we are going to search
          boolean isFound = match.find();
-         System.out.println(isFound);
-         //assertTrue(isFound);
+         assertTrue(isFound);
      }
       @Test
       void testOptional(){
