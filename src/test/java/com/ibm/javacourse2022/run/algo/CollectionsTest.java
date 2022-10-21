@@ -15,8 +15,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class CollectionsTest {
-    private static final String TEXT = "this is the text message for searching with regex";
-    private static final String SEARCH_TEXT = "this";
+    private static final String TEXT = "this is the text message for searching with regex BIG DATA 123";
+    private static final String SEARCH_TEXT = "^[a-z][A-Z]";
+    private static final String SEARCH_TEXT_END = "$regex";
     public Optional<String>  value = Optional.of("");
     @DisplayName("test linked list")
     @Test
