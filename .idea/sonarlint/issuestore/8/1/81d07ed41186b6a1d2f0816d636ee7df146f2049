@@ -1,0 +1,10 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(õÐ”‰ýÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ªóºw
+N	java:S106"9Replace this use of System.out or System.err by a logger.(áÙƒ´
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÕÁ³Òýÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(õÐ”‰ýÿÿÿÿ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(“©¾îÿÿÿÿÿ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(ç£ˆ—ùÿÿÿÿ
+U
+java:S1128"?Remove this unused import 'java.time.format.DateTimeFormatter'.(‰÷÷ª

@@ -6,11 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="javacourse2022-maven" />
+        <module name="sql-module" />
+        <module name="networking" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="javacourse2022-maven" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>

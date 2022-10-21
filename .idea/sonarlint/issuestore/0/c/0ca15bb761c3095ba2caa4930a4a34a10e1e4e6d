@@ -1,0 +1,12 @@
+
+^
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(­æýò
+N
+java:S1854"8Remove this useless assignment to local variable "conn".(­æýò
+N	java:S106"9Replace this use of System.out or System.err by a logger.(üùÓÒ
+P	java:S125"<This block of commented-out lines of code should be removed.(¢Ù
+?
+java:S1481")Remove this unused "conn" local variable.(­æýò
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÙïìÝüÿÿÿÿ
+h
+java:S1128"RRemove this unused import 'com.ibm.javacourse2022.run.calculator.CalculatorTools'.(¿¸Ãç
