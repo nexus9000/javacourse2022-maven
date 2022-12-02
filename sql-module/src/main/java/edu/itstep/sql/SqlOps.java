@@ -7,7 +7,7 @@ import java.util.HashMap;
 
 
 public class SqlOps {
-    private static final String URL = "jdbc:sqlite:C:/sqlite/test.db";
+    private static final String URL = "jdbc:sqlite:database/test.db";
     private static Connection conn;
     private Statement st;
     private static PreparedStatement ps;
