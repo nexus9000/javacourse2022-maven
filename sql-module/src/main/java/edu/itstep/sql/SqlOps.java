@@ -32,7 +32,7 @@ public class SqlOps {
 
     public static HashMap<Long, String> getAlbumsList(@NotNull Connection conn) throws SQLException {
         HashMap<Long, String> albums = new HashMap<>();
-        String sql = "select id,album_name from albums";
+        String sql = "select id,album_name from albums limit 5";
         ps = conn.prepareStatement(sql);
         rs = ps.executeQuery();
         while (rs.next()) {
