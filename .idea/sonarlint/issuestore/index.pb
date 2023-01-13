@@ -154,8 +154,6 @@ d
 r
 Bsrc/test/java/com/ibm/javacourse2022/run/algo/CollectionsTest.java,2\3\23715da8cbb6cfab1bc0bebba8cf026870f8fb70
 w
-G.idea/sonarlint/issuestore/4/1/416d2956fe5b5ba606ad25e082f1162ecffdfd37,2\b\2b435c21ce13ee5158ebb0fe0411f6e4b23f82af
-w
 G.idea/sonarlint/issuestore/7/e/7eefc6dcec5b1dd19c286fe8a40fe1bde923706f,e\f\ef719045b4995ab6b27f67962c5541fd5b4c3e98
 w
 G.idea/sonarlint/issuestore/b/0/b06e3c81af11257d6e13da58bfa41a0acbfc144e,5\e\5ec9815948d2f3355cd73d1e57f961fe5fb3957a
@@ -211,7 +209,3 @@ x
 Hnetworking/src/main/java/edu/itstep/networking/server/ClientHandler.java,5\c\5ca888c0dd1f82347e0ac7076c97ac9a26df8801
 t
 Dnetworking/src/main/java/edu/itstep/networking/server/ListFiles.java,3\f\3f7b38c9c3cd2ffbb4019308537c6520e7131af6
-B
-sql-module/pom.xml,4\1\416d2956fe5b5ba606ad25e082f1162ecffdfd37
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec

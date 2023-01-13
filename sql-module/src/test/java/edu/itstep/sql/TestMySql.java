@@ -1,12 +1,11 @@
 package edu.itstep.sql;
 
 import org.apache.log4j.Logger;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 
 public class TestMySql {
     //test purposes only
@@ -15,7 +14,7 @@ public class TestMySql {
     @BeforeEach
     public void setUp() {
         try {
-            String url = "jdbc:mysql://127.0.0.1:3306/test";
+            String url = "jdbc:mysql://127.0.0.1:3306/albums";
             String user = "root";
             String password = "cisco";
             conn = DriverManager.getConnection(url, user, password);
@@ -28,6 +27,15 @@ public class TestMySql {
     }
     @Test
     void testUserName()throws SQLException{
-
+       String sql = "select user_name from albums.users where user_name='user1'";
+        PreparedStatement ps = conn.prepareStatement(sql);
+        ResultSet rs = ps.executeQuery();
+        Assertions.assertTrue(rs.next());
+        ps.close();
+        rs.close();
+    }
+    @Test
+    void testAlbumName()throws SQLException{
+        String sql = "";
     }
 }
