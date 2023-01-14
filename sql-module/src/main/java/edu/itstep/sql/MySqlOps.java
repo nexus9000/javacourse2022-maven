@@ -16,7 +16,7 @@ public class MySqlOps {
     private HashMap<String, String> users;
 
     public static Connection getConn() throws SQLException, ClassNotFoundException {
-        Class.forName("com.mysql.jdbc.Driver");
+        //Class.forName("com.mysql.jdbc.Driver");
         conn = DriverManager.getConnection(URL,user, password);
         return conn;
     }
