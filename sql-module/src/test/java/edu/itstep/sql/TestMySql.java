@@ -19,7 +19,6 @@ public class TestMySql {
             String password = "cisco";
             conn = DriverManager.getConnection(url, user, password);
             log.info("Connection to database is OK!");
-            System.out.println("conn is ok");
         } catch (SQLException sql) {
             log.error("problem with driver. Not found!");
             sql.printStackTrace();
