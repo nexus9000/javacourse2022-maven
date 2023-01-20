@@ -55,20 +55,8 @@ p
 @.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml,7\8\78b158d79d4a615b8bf614d6ee88675e25eba276
 d
 4.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml,6\2\6284eecedd2d85fb3913164f96df4582210062ba
-w
-G.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_1.xml,c\3\c3e33120e55d60154ae83ab5d6077418a4ecdccc
-w
-G.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_9_1.xml,3\2\32f0e976d58783efc2d52df178e61ed3bd060124
-p
-@.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_9_1.xml,5\0\50a1e1e1b7a235b078edba66373949bb9e69cb3a
-t
-D.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_1.xml,8\a\8a0430c78a0c9ce8f42b662412b5c726941babe4
 j
 :.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml,8\5\858474d8d215ec25f84b3be6f80418553ae8d1df
-z
-J.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_1.xml,5\2\52ba1dd50305a51d8ce917c35582b31f8b00799e
-y
-I.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_1.xml,9\5\954a36151979f99133c2e95dec1acdecf861757b
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 Å
@@ -209,3 +197,5 @@ x
 Hnetworking/src/main/java/edu/itstep/networking/server/ClientHandler.java,5\c\5ca888c0dd1f82347e0ac7076c97ac9a26df8801
 t
 Dnetworking/src/main/java/edu/itstep/networking/server/ListFiles.java,3\f\3f7b38c9c3cd2ffbb4019308537c6520e7131af6
+c
+3sql-module/src/test/java/edu/itstep/sql/TestDB.java,0\c\0ce6148e06a7e865c90fea4ec7e2f2225fdba367

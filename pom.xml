@@ -14,7 +14,6 @@
     </modules>
     <!-- https://mvnrepository.com/artifact/org.jetbrains/annotations -->
     <dependencies>
-
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>

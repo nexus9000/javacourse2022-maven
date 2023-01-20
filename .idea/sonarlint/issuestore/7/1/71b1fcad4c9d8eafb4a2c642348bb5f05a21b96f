@@ -1,0 +1,13 @@
+
+e
+java:S2095$"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(Ù«×ıûÿÿÿÿ
+=
+java:S2189&""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
+E
+java:S2387	"*"port" is the name of a field in "Server".(ß³†ÿÿÿÿÿ
+K
+java:S2387"0"typeServer" is the name of a field in "Server".(ÕÒ¡şÿÿÿÿ
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(€âëõıÿÿÿÿ
+.
+java:S2438)""ch" is a "Thread".(ÓˆÍ½üÿÿÿÿ
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(Ï€û´
