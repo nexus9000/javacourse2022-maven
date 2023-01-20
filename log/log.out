@@ -1,0 +1,6 @@
+2023-01-20T21:11:03.348+0200 DEBUG Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2023-01-20T21:11:03.375+0200 DEBUG Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2023-01-20T21:11:03.381+0200 DEBUG Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2023-01-20T21:11:03.390+0200 DEBUG Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2023-01-20T21:11:03.509+0200 INFO HHH000412: Hibernate Core {5.2.12.Final}
+2023-01-20T21:11:03.515+0200 INFO HHH000206: hibernate.properties not found
