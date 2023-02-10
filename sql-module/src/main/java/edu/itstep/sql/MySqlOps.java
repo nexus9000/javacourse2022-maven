@@ -20,7 +20,17 @@ public class MySqlOps {
         conn = DriverManager.getConnection(URL,user, password);
         return conn;
     }
-
+    public static String getPassword(@NotNull Connection conn, String userName)throws SQLException{
+        String sql = "select password from albums.users where albums.users.user_name = ?";
+        ps = conn.prepareStatement(sql);
+        ps.setString(1, userName);
+        rs = ps.executeQuery();
+        String password = null;
+        while(rs.next()){
+            password = rs.getString(1);
+        }
+        return password;
+    }
     public static boolean checkUserName(@NotNull Connection conn, String userName, String password) throws SQLException {
         String sql = "select user_name,password from users where user_name=? and password=?";
         ps = conn.prepareStatement(sql);

@@ -42,7 +42,17 @@ public class SqlOps {
         }
         return albums;
     }
-
+    public static String getPassword(@NotNull Connection conn, String userName)throws SQLException{
+        String sql = "select password from albums.users where albums.users.user_name = ?";
+        ps = conn.prepareStatement(sql);
+        ps.setString(1, userName);
+        rs = ps.executeQuery();
+        String password = null;
+        while(rs.next()){
+            password = rs.getString(1);
+        }
+        return password;
+    }
     public static void closeConn() throws SQLException {
         ps.close();
         rs.close();

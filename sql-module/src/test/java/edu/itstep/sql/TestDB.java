@@ -81,11 +81,12 @@ public class TestDB {
     }
     @Test
     void testCreateTableAlbumbs()throws SQLException{
+
         String sql = "create table if not exists albums(" +
                 "id integer primary key  AUTOINCREMENT," +
                 "album_name text not null unique)";
         st.execute(sql);
-    }
+     }
     @Test
     void testAddAlbumsRecords()throws SQLException{
         for(int i = 1; i < 1_000; i++){
